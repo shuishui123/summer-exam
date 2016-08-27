@@ -150,7 +150,7 @@ a {
 }
 .news .news-block {
   width: 9.296875rem;
-  height: 1.640625rem;
+  height: 1.796875rem;
   margin: 0 auto;
   margin-top: 0.3125rem;
   position: relative;
@@ -182,12 +182,12 @@ a {
   text-overflow: ellipsis;
 }
 .news .news-block .news-right {
-  width: 2.578125rem;
+  width: 4.140625rem;
   height: 0.46875rem;
   display: inline-block;
   position: absolute;
   right: 0;
-  top: 1.25rem;
+  top: 1.40625rem;
 }
 .news .news-block .news-sub {
   display: inline-block;

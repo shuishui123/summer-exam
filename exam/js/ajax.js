@@ -7,7 +7,7 @@
       } else {// code for IE6, IE5
         xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
       }
-    xmlhttp.open("GET","/news?num=5",false);
+    xmlhttp.open("GET","/news?num=4",false);
     xmlhttp.send();
     callback(JSON.parse(xmlhttp.responseText));
 
