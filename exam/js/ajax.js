@@ -63,10 +63,13 @@
         var sliderCon = document.querySelector('.slider');
         var sliderList = document.querySelector('#slider_list');
         var num = res.length;
+        var liNum = 0
         for(var i = 0; i < num; i++) {
             var newDiv = document.createElement("div");
             newDiv.className = "block";
             var newLi = document.createElement("li");
+            liNum++;
+            newLi.innerHTML = liNum;
             sliderCon.appendChild(newDiv);
             sliderList.appendChild(newLi);
             var newImg = document.createElement("img");
