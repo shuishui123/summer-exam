@@ -154,7 +154,7 @@
             var newSpan = document.createElement("span");
             var newA = document.createElement("a");
             
-            newA.innerHTML =" " + res.added[i].name + " ";
+            newA.innerHTML = res.added[i].name;
             
             oTest.appendChild(newSpan);
             newSpan.appendChild(newA); 
@@ -163,7 +163,7 @@
 
             if(tagLen % 4 != 0) {
                var newShu = document.createElement("span");
-               newShu.innerHTML =" " + "|" + " ";
+               newShu.innerHTML ="|";
                oTest.appendChild(newShu);
             }
             if(tagLen % 4 == 0) {

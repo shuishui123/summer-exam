@@ -14,7 +14,7 @@ function insertEle(e) {
     var newSpan = document.createElement("span");
     var newA = document.createElement("a");
     
-    newA.innerHTML =" " + e + " ";
+    newA.innerHTML = e;
     
     oTest.appendChild(newSpan);
     newSpan.appendChild(newA);
@@ -24,7 +24,7 @@ function insertEle(e) {
 
     if(tagLen % 4 != 0) {
        var newShu = document.createElement("span");
-       newShu.innerHTML =" " + "|" + " ";
+       newShu.innerHTML ="|";
        oTest.appendChild(newShu);
     }
     if(tagLen % 4 == 0) {
