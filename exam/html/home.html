@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script src="https://redrock.cqupt.edu.cn/exam-mock/mock-min.js"></script>
+    <script src="https://redrock.cqupt.edu.cn/exam-mock/mock-data.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <script>
+        !function(a,b){function c(){var b=f.getBoundingClientRect().width;b/i>540&&(b=540*i);var c=b/10;f.style.fontSize=c+"px",k.rem=a.rem=c}var d,e=a.document,f=e.documentElement,g=e.querySelector('meta[name="viewport"]'),h=e.querySelector('meta[name="flexible"]'),i=0,j=0,k=b.flexible||(b.flexible={});if(g){console.warn("将根据已有的meta标签来设置缩放比例");var l=g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);l&&(j=parseFloat(l[1]),i=parseInt(1/j))}else if(h){var m=h.getAttribute("content");if(m){var n=m.match(/initial\-dpr=([\d\.]+)/),o=m.match(/maximum\-dpr=([\d\.]+)/);n&&(i=parseFloat(n[1]),j=parseFloat((1/i).toFixed(2))),o&&(i=parseFloat(o[1]),j=parseFloat((1/i).toFixed(2)))}}if(!i&&!j){var p=(a.navigator.appVersion.match(/android/gi),a.navigator.appVersion.match(/iphone/gi)),q=a.devicePixelRatio;i=p?q>=3&&(!i||i>=3)?3:q>=2&&(!i||i>=2)?2:1:1,j=1/i}if(f.setAttribute("data-dpr",i),!g)if(g=e.createElement("meta"),g.setAttribute("name","viewport"),g.setAttribute("content","initial-scale="+j+", maximum-scale="+j+", minimum-scale="+j+", user-scalable=no"),f.firstElementChild)f.firstElementChild.appendChild(g);else{var r=e.createElement("div");r.appendChild(g),e.write(r.innerHTML)}a.addEventListener("resize",function(){clearTimeout(d),d=setTimeout(c,300)},!1),a.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(d),d=setTimeout(c,300))},!1),"complete"===e.readyState?e.body.style.fontSize=12*i+"px":e.addEventListener("DOMContentLoaded",function(){e.body.style.fontSize=12*i+"px"},!1),c(),k.dpr=a.dpr=i,k.refreshRem=c,k.rem2px=function(a){var b=parseFloat(a)*this.rem;return"string"==typeof a&&a.match(/rem$/)&&(b+="px"),b},k.px2rem=function(a){var b=parseFloat(a)/this.rem;return"string"==typeof a&&a.match(/px$/)&&(b+="rem"),b}}(window,window.lib||(window.lib={}));
+    </script>
+</head>
+<body>
+    <div class="container">
+        <!-- 主页 -->
+        <div class="home">
+             <!-- 头部 -->
+            <ul class="header">
+                <li class="first">
+                    <a href="##">头条</a>
+                </li>
+                <li>
+                    <a href="##">娱乐</a>
+                </li>
+                <li>
+                    <a href="##">体育</a>
+                </li>
+                <li>
+                    <a href="##">汽车</a>
+                </li>
+                <li>
+                    <a href="##">科技</a>
+                </li>
+                <div class="down">
+                    <a href="##"><i>&#xe66a;</i></a>   
+                </div>
+            </ul>
+            <!-- 轮播 -->
+            <div class="slider">
+                <!-- <div class="block" >
+                    <img src="../img/slider.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../img/slider.png" alt="">
+                </div>
+                <div class="block">
+                    <img src="../img/slider.png" alt="">
+                </div> -->
+            </div>
+            <div class="sli-grey">
+                <div class="pic-block">
+                    图集
+                </div>
+                <p>脸谱阅后即焚应用排名下跌</p>
+                <ul id="slider_list">
+                    <!-- <li style="background-color: #515151;" class="sli_li">1</li>
+                    <li class="sli_li">2</li>
+                    <li class="sli_li">3</li> -->
+                </ul>   
+            </div>
+            <!-- 新闻 -->
+            <div class="news">
+                <div class="news-block">
+                    <img src="" alt="">
+                    <p class="news-title">脸谱阅后即焚应用排名下跌</p>
+                    <p class="news-des">阅后即焚服务一度跻身App Store前50名免费应用排行榜。</p>
+                    <div class="news-right">
+                        <span class="news-sub">专题</span>
+                        <span class="news-fol">8907跟贴</span> 
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="news-block">
+                    <img src="" alt="">
+                    <p class="news-title">高速将构建新能源车快充网络</p>
+                    <p class="news-des">中国政府网指导意见，明确以发展纯电动汽车为主要战略。</p>
+                    <div class="news-right">
+                        <span class="news-sub">专题</span>
+                        <span class="news-fol">8907跟贴</span> 
+                    </div>
+                </div>
+                <hr>
+                <div class="news-block">
+                    <img src="" alt="">
+                    <p class="news-title">诺基亚北京工厂裁3千人或撤出</p>
+                    <p class="news-des">上周五微软也已启动诺基亚北京工厂裁员计划，或将迁离北京。</p>
+                    <div class="news-right">
+                        <span class="news-sub">专题</span>
+                        <span class="news-fol">8907跟贴</span> 
+                    </div>
+                </div>
+                <hr>
+                <div class="news-block">
+                    <img src="" alt="">
+                    <p class="news-title">老罗致歉：锤子预约18万台？</p>
+                    <p class="news-des">锤子遇到严重的产能问题，而且良品率很低，品控太差。</p>
+                    <div class="news-right">
+                        <span class="news-sub">专题</span>
+                        <span class="news-fol">8907跟贴</span> 
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+        <div class="menu">
+            <div class="switch">
+                <span>切换栏目</span>
+                <span class="delete">排序删除</span>
+                <div class="up">
+                    <i class="iconfont">&#xe609;</i>
+                </div>
+            </div>
+            <div class="switch-tags">
+
+                <!-- <span>
+                    <a href="##">头条</a>
+                </span>
+                <span>|</span>
+                <span>
+                    <a href="##">娱乐</a>
+                </span>
+                <span>|</span>
+                <span>
+                    <a href="##">体育</a>
+                </span>
+                <span>|</span>
+                <span>
+                    <a href="##">财经</a>
+                </span>
+                <hr>
+
+                <span>
+                    <a href="##">科技</a>
+                </span>
+                <span>|</span>
+                <span>
+                    <a href="##">汽车</a>
+                </span>
+                <span>|</span>
+                <span>
+                    <a href="##">北京</a>
+                </span>
+                <span>|</span>
+                <span>
+                    <a href="##">军事</a>
+                </span>
+                <hr>
+
+                <span>
+                    <a href="##">房产</a>
+                </span>
+                <span>|</span>
+                <span>
+                    <a href="##">数码</a>
+                </span>
+                <span>|</span>
+                <span>
+                    <a href="##">手机</a>
+                </span>
+                <span>|</span>
+                <span>
+                    <a href="##">移动互联</a>
+                </span>
+                <hr> -->
+            </div>
+
+            <div class="add">
+                <span>点击添加更多栏目</span>
+            </div>
+
+            <div class="add-tags">
+                <!-- <button>博客</button>
+                <button>推荐</button>
+                <button>论坛</button>
+                <button>聚合阅读</button>
+                <button>社会</button>
+                <button>电影</button>
+                <button>彩票</button>
+                <button>NBA</button>
+                <button>中国足球</button>
+                <button>国际足球</button>
+                <button>CBA</button>
+                <button>轻松一刻</button>
+                <button>原创</button>
+                <button>精选</button>
+                <button>家居</button>
+                <button>游戏</button>
+                <button>读书</button>
+                <button>教育</button>
+                <button>旅游</button>
+                <button>酒香</button>
+                <button>暴雪游戏</button>
+                <button>亲子</button>
+                <button>葡萄酒</button>
+                <button>时尚</button> -->
+            </div>
+        </div>
+        
+    </div>
+    <!-- 轮播 -->
+    <!-- <script src="../js/slider.js"></script> -->
+    <!-- 切换 -->
+    <script src="../js/change.js"></script>
+    <!-- ajax -->
+    <script src="../js/ajax.js"></script>
+    <!-- 添加标签 -->
+    <script src="../js/add.js"></script>
+</body>
+</html>
